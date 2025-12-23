@@ -712,3 +712,42 @@ html[data-theme="dark"]{
   --gold: #d4af37;
   --gold2:#f3c500;
 }
+/* --- Mobile header fix (SR/EN + dark btn not overlapping brand) --- */
+@media (max-width: 720px){
+  .topbar-inner{
+    gap:10px;
+  }
+
+  /* خلي البراند ما يفرض عرض كبير */
+  .brand{
+    min-width: 0;          /* كان 230px */
+    flex: 1 1 auto;        /* ياخد مساحة بس يتنازل */
+    overflow: hidden;
+  }
+
+  /* الاسم يختصر بدل ما يكسر ويزق الأزرار */
+  .brand-name{
+    font-size: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 42vw;       /* عدّلها إذا بدك */
+  }
+
+  .brand-logo{
+    width:44px;
+    height:44px;
+    border-radius:14px;
+  }
+
+  /* خلي زر تبديل اللغة والدراك موود يبقوا بالسطر */
+  .lang-switch{
+    margin-left: 0;
+    gap:8px;
+  }
+
+  .lang-btn{
+    padding:7px 10px;
+    font-size: 12px;
+  }
+}
