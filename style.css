@@ -402,15 +402,15 @@ a{color:inherit}
   display:grid;
   gap: 10px;
 }
-.menu-list li{
-  display:flex; justify-content:space-between; align-items:center;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(0,0,0,.06);
-  font-weight:800;
-  color:#2b2b2b;
+..menu-list li{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:16px;
+  padding:8px 0;
+  border-bottom:1px solid rgba(255,255,255,.08);
 }
-.menu-list li:last-child{border-bottom:none; padding-bottom:0}
-
+.menu-list li:last-child{border-bottom:none}
 .note-box{
   margin-top: 18px;
   width: min(720px, 100%);
