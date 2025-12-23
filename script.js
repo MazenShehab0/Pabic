@@ -364,3 +364,21 @@ document.addEventListener("click", (e) => {
 
 // Init
 setLang(localStorage.getItem("lang") || "sr");
+(() => {
+  const btn = document.getElementById("themeBtn");
+  if(!btn) return;
+
+  const apply = (theme) => {
+    document.documentElement.setAttribute("data-theme", theme);
+    btn.textContent = (theme === "dark") ? "☀️" : "🌙";
+    localStorage.setItem("pabic_theme", theme);
+  };
+
+  const saved = localStorage.getItem("pabic_theme");
+  apply(saved || "light");
+
+  btn.addEventListener("click", () => {
+    const cur = document.documentElement.getAttribute("data-theme") || "light";
+    apply(cur === "dark" ? "light" : "dark");
+  });
+})();
