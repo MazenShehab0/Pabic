@@ -654,17 +654,3 @@ a{color:inherit}
   font-weight:800;
   margin-left:12px;
 }
-.lang-switch{display:flex;gap:10px;align-items:center}
-.lang-btn{
-  padding:8px 12px;
-  border-radius:999px;
-  border:1px solid rgba(0,0,0,.12);
-  background:#fff;
-  color:#111;
-  font-weight:800;
-  cursor:pointer;
-}
-.lang-btn.active{
-  background: var(--accent, #d4af37);
-  border-color: transparent;
-}
