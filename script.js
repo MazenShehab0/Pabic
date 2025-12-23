@@ -174,8 +174,9 @@ const dict = {
     footer_contact_title: "Kontakt",
     footer_follow_title: "Pratite nas",
     footer_follow_text: "Podelite svoja iskustva i obeležite nas u svojim objavama!",
-    footer_rights: "Sva prava zadržana."
-    nav_events:"Svirka",
+    footer_rights: "Sva prava zadržana.",
+nav_events: "Svirka",
+
   
   },
 
@@ -316,8 +317,8 @@ const dict = {
     footer_contact_title: "Contact",
     footer_follow_title: "Follow us",
     footer_follow_text: "Share your experience and tag us in your posts!",
-    footer_rights: "All rights reserved."
-    nav_events:"Live music",
+    footer_rights: "All rights reserved.",
+nav_events: "Live music",
   
   }
 };
