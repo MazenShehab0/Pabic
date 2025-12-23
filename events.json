@@ -1,9 +1,12 @@
 {
   "next": {
-    "date": "2025-12-27",
-    "band_sr": "DUO CAP",
-    "band_en": "DUO CAP",
-    "note_sr": "Početak oko 21:00",
-    "note_en": "Starts around 21:00"
+    "date": "2026-01-03",
+    "day_sr": "Subota",
+    "day_en": "Saturday",
+    "time": "21:30",
+    "band_sr": "TBA",
+    "band_en": "TBA",
+    "note_sr": "Početak oko 21:30",
+    "note_en": "Starts around 21:30"
   }
 }
