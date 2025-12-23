@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pabić — Kafić | Mladenovac</title>
+  <meta name="description" content="Pabić kafić u Mladenovcu — počnite dan uz dobru kafu i upotpunite ga pivom. Subotom svirka uživo." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pabić — Kafić | Mladenovac" />
+  <meta property="og:description" content="Počnite dan uz dobru kafu i upotpunite ga pivom. Subotom svirka uživo." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og.jpg" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div class="brand-mark">P</div>
+        <div class="brand-text">
+          <div class="brand-name">Pabić</div>
+          <div class="brand-sub" data-i18n="sr.subtitle">Kafić • Mladenovac</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#meni" data-i18n="sr.nav.menu">Meni</a>
+        <a href="#svirka" data-i18n="sr.nav.music">Svirka</a>
+        <a href="#galerija" data-i18n="sr.nav.gallery">Galerija</a>
+        <a href="#kontakt" data-i18n="sr.nav.contact">Kontakt</a>
+      </nav>
+
+      <div class="lang">
+        <button class="lang-btn active" id="btn-sr" type="button">SR</button>
+        <button class="lang-btn" id="btn-en" type="button">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="pill" data-i18n="sr.pill">Subotom: svirka uživo 🎶</div>
+          <h1 class="hero-title" data-i18n="sr.heroTitle">Počnite dan uz dobru kafu i upotpunite ga pivom.</h1>
+          <p class="hero-text" data-i18n="sr.heroText">
+            Pabić je mesto za kafu, pića i dobro društvo — a svake subote vas čeka nova svirka (uživo, različiti bendovi).
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn" href="#meni" data-i18n="sr.ctaMenu">Pogledaj meni</a>
+            <a class="btn outline" href="#rezervacije" data-i18n="sr.ctaReserve">Rezervacije</a>
+          </div>
+
+          <div class="mini-info">
+            <div class="mini-card">
+              <div class="mini-label" data-i18n="sr.hoursLabel">Radno vreme</div>
+              <div class="mini-value" data-i18n="sr.hoursValue">Pon–Ned: 07:00 – 01:00</div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-label" data-i18n="sr.addressLabel">Adresa</div>
+              <div class="mini-value">Kralja Petra Prvog 136, Mladenovac</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-right card">
+          <div class="side-photo">
+            <img src="assets/hero.jpg" alt="Pabić terasa u Mladenovcu" loading="eager" />
+          </div>
+
+          <h3 data-i18n="sr.quickContact">Brzi kontakt</h3>
+          <div class="contact-lines">
+            <a class="contact-line" href="tel:+381616217070">
+              <span class="icon">📞</span>
+              <span>+381 61 6217070</span>
+            </a>
+            <a class="contact-line" target="_blank" rel="noopener" href="https://www.instagram.com/pabic_pabic/">
+              <span class="icon">📸</span>
+              <span>@pabic_pabic</span>
+            </a>
+            <a class="contact-line" target="_blank" rel="noopener"
+               href="https://www.google.com/maps?q=Kralja+Petra+Prvog+136,+Mladenovac"
+               id="map-link">
+              <span class="icon">📍</span>
+              <span data-i18n="sr.openMap">Otvori mapu</span>
+            </a>
+          </div>
+
+          <div class="divider"></div>
+
+          <h4 data-i18n="sr.highlights">Izdvajamo</h4>
+          <ul class="bullets">
+            <li data-i18n="sr.h1">Kafa i pića (toplo/hladno)</li>
+            <li data-i18n="sr.h2">Cene okvirno: 500–1000 RSD</li>
+            <li data-i18n="sr.h3">Subotom svirka uživo (različiti bendovi)</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="meni" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="sr.menuTitle">Meni</h2>
+          <p class="muted" data-i18n="sr.menuNote">U ponudi su topli i hladni napici. Cene su okvirno 500–1000 RSD.</p>
+        </div>
+
+        <div class="grid3">
+          <div class="card">
+            <h3 data-i18n="sr.menuHot">Topli napici</h3>
+            <ul class="menu-list">
+              <li><span data-i18n="sr.sample.espresso">Espresso</span><span class="price">—</span></li>
+              <li><span data-i18n="sr.sample.cap">Cappuccino</span><span class="price">—</span></li>
+              <li><span data-i18n="sr.sample.latte">Latte</span><span class="price">—</span></li>
+              <li><span data-i18n="sr.sample.tea">Čaj</span><span class="price">—</span></li>
+            </ul>
+            <p class="hint" data-i18n="sr.menuHint">* Kasnije možete upisati tačne cene.</p>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="sr.menuCold">Hladni napici</h3>
+            <ul class="menu-list">
+              <li><span data-i18n="sr.sample.lemonade">Limunada</span><span class="price">—</span></li>
+              <li><span data-i18n="sr.sample.icedTea">Ledeni čaj</span><span class="price">—</span></li>
+              <li><span data-i18n="sr.sample.juice">Sokovi</span><span class="price">—</span></li>
+              <li><span data-i18n="sr.sample.water">Voda</span><span class="price">—</span></li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3 data-i18n="sr.menuBeer">Pivo & ostalo</h3>
+            <ul class="menu-list">
+              <li><span data-i18n="sr.sample.beer">Pivo (točeno / flaširano)</span><span class="price">—</span></li>
+              <li><span data-i18n="sr.sample.cocktail">Koktel</span><span class="price">—</span></li>
+              <li><span data-i18n="sr.sample.soft">Bezalkoholna pića</span><span class="price">—</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE MUSIC -->
+    <section id="svirka" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="sr.musicTitle">Subotom — svirka uživo</h2>
+          <p class="muted" data-i18n="sr.musicText">
+            Svake subote organizujemo živu muziku, i svaki put nastupa drugačiji bend.
+            Za stolove i proslave — javite se putem Instagrama ili telefona.
+          </p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3 data-i18n="sr.eventsTitle">Proslave & događaji</h3>
+            <ul class="bullets">
+              <li data-i18n="sr.ev1">Rođendani</li>
+              <li data-i18n="sr.ev2">Manje privatne proslave</li>
+              <li data-i18n="sr.ev3">Rezervacija stolova za svirku</li>
+            </ul>
+
+            <div class="divider"></div>
+            <div class="mini-gallery">
+              <a href="assets/gallery-4.jpg" target="_blank" rel="noopener">
+                <img src="assets/gallery-4.jpg" alt="Atmosfera: gledanje utakmice" loading="lazy" />
+              </a>
+              <a href="assets/gallery-3.jpg" target="_blank" rel="noopener">
+                <img src="assets/gallery-3.jpg" alt="Kafa u Pabić-u" loading="lazy" />
+              </a>
+            </div>
+          </div>
+
+          <div class="card" id="rezervacije">
+            <h3 data-i18n="sr.reserveTitle">Rezervacije</h3>
+            <p class="muted" data-i18n="sr.reserveText">
+              Najbrže: pošaljite poruku na Instagram ili pozovite.
+            </p>
+            <div class="actions">
+              <a class="btn" target="_blank" rel="noopener" href="https://www.instagram.com/pabic_pabic/" data-i18n="sr.msgInsta">Poruka na Instagram</a>
+              <a class="btn outline" href="tel:+381616217070" data-i18n="sr.callNow">Pozovi sada</a>
+            </div>
+
+            <div class="divider"></div>
+            <p class="hint" data-i18n="sr.reserveHint">
+              * Ako želite i kontakt formu (email), može besplatno (Formspree).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="galerija" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="sr.galleryTitle">Galerija</h2>
+          <p class="muted" data-i18n="sr.galleryText">Klikni na sliku da se otvori u punoj veličini.</p>
+        </div>
+
+        <div class="gallery">
+          <a href="assets/gallery-1.jpg" target="_blank" rel="noopener"><img src="assets/gallery-1.jpg" alt="Enterijer Pabić" loading="lazy" /></a>
+          <a href="assets/gallery-2.jpg" target="_blank" rel="noopener"><img src="assets/gallery-2.jpg" alt="Šank i atmosfera" loading="lazy" /></a>
+          <a href="assets/gallery-3.jpg" target="_blank" rel="noopener"><img src="assets/gallery-3.jpg" alt="Kafa i piće" loading="lazy" /></a>
+          <a href="assets/gallery-4.jpg" target="_blank" rel="noopener"><img src="assets/gallery-4.jpg" alt="Terasa uveče, utakmica" loading="lazy" /></a>
+          <a href="assets/gallery-5.jpg" target="_blank" rel="noopener"><img src="assets/gallery-5.jpg" alt="Terasa danju" loading="lazy" /></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT + MAP -->
+    <section id="kontakt" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2 data-i18n="sr.contactTitle">Kontakt</h2>
+          <p class="muted" data-i18n="sr.contactText">Dođite na kafu u Mladenovac — vidimo se!</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3 data-i18n="sr.detailsTitle">Detalji</h3>
+
+            <div class="info-row">
+              <div class="k" data-i18n="sr.kAddress">Adresa</div>
+              <div class="v">Kralja Petra Prvog 136, Mladenovac</div>
+            </div>
+
+            <div class="info-row">
+              <div class="k" data-i18n="sr.kHours">Radno vreme</div>
+              <div class="v" data-i18n="sr.hoursFull">Monday–Sunday: 07:00 – 01:00</div>
+            </div>
+
+            <div class="info-row">
+              <div class="k" data-i18n="sr.kPhone">Telefon</div>
+              <div class="v"><a href="tel:+381616217070">+381 61 6217070</a></div>
+            </div>
+
+            <div class="info-row">
+              <div class="k">Instagram</div>
+              <div class="v"><a target="_blank" rel="noopener" href="https://www.instagram.com/pabic_pabic/">@pabic_pabic</a></div>
+            </div>
+
+            <div class="actions" style="margin-top:14px;">
+              <a class="btn" target="_blank" rel="noopener"
+                 href="https://www.google.com/maps?q=Kralja+Petra+Prvog+136,+Mladenovac"
+                 data-i18n="sr.openMapsBtn">Otvori u Google Maps</a>
+            </div>
+          </div>
+
+          <div class="card map-card">
+            <iframe
+              title="Pabić mapa"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Kralja+Petra+Prvog+136,+Mladenovac&output=embed">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Pabić</div>
+      <div class="muted" data-i18n="sr.footerNote">Kralja Petra Prvog 136, Mladenovac • 07:00–01:00</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
