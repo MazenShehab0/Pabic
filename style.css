@@ -192,7 +192,8 @@ a{color:inherit}
 .hero-note{
   display:block;
   margin-top:10px;
-  color: rgba(212,175,55,.95);
+  color:#7FE7D7;
+  text-shadow:0 2px 12px rgba(0,0,0,.70);
   font-weight:900;
 }
 .hero-actions{
