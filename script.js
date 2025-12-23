@@ -30,3 +30,34 @@
     });
   }
 })();
+const i18n = {
+  sr: { btn_call: "Pozovi" },
+  en: { btn_call: "Call" }
+};
+
+function setLang(lang){
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const key = el.getAttribute("data-i18n");
+    if(i18n[lang] && i18n[lang][key]) el.textContent = i18n[lang][key];
+  });
+
+  document.querySelectorAll(".lang-btn").forEach(b=>{
+    b.classList.toggle("active", b.dataset.lang === lang);
+  });
+
+  localStorage.setItem("lang", lang);
+
+  // (اختياري) aria-label تبع زر الاتصال
+  const call = document.querySelector(".call-btn");
+  if(call){
+    call.setAttribute("aria-label", lang === "en" ? "Call Pabić" : "Pozovi Pabić");
+  }
+}
+
+document.addEventListener("click", (e)=>{
+  const btn = e.target.closest(".lang-btn");
+  if(!btn) return;
+  setLang(btn.dataset.lang);
+});
+
+setLang(localStorage.getItem("lang") || "sr");
