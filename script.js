@@ -177,19 +177,6 @@ const dict = {
     footer_rights: "Sva prava zadržana."
     nav_events:"Svirka",
   
-events_title:"Svirka uživo",
-events_sub:"Svake subote druga ekipa — pratite najavu i rezervišite sto na vreme.",
-events_next:"Sledeća svirka",
-events_res:"Rezervacije",
-events_ig:"Najava na Instagramu",
-events_tip:"Saveti",
-events_tip1:"Najveća gužva je posle 22:00",
-events_tip2:"Rezervacije: Instagram DM ili poziv",
-events_tip3:"Dođite ranije za najbolja mesta",
-pop_title:"🎶 Subota = Svirka uživo",
-pop_text:"Svake subote druga ekipa. Rezervišite sto preko Instagrama.",
-pop_res:"Rezervacije",
-pop_more:"Detalji"
   },
 
   en: {
@@ -331,20 +318,7 @@ pop_more:"Detalji"
     footer_follow_text: "Share your experience and tag us in your posts!",
     footer_rights: "All rights reserved."
     nav_events:"Live music",
-      
-events_title:"Live music",
-events_sub:"Every Saturday a different band — check the announcement and book a table.",
-events_next:"Next live set",
-events_res:"Reservations",
-events_ig:"Announcement on Instagram",
-events_tip:"Tips",
-events_tip1:"The busiest time is after 22:00",
-events_tip2:"Reservations: Instagram DM or call",
-events_tip3:"Come earlier for the best seats",
-pop_title:"🎶 Saturday = Live music",
-pop_text:"Every Saturday a different band. Book your table via Instagram.",
-pop_res:"Reservations",
-pop_more:"Details"
+  
   }
 };
 
