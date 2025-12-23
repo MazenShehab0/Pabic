@@ -382,3 +382,10 @@ setLang(localStorage.getItem("lang") || "sr");
     apply(cur === "dark" ? "light" : "dark");
   });
 })();
+const gigData = {
+  band: "DUO CAP",
+  day: "Subota",
+  time: "oko 21:00"
+};
+
+document.getElementById("bandName").textContent = gigData.band;
