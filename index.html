@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pabić — Kafić | Mladenovac</title>
+  <meta name="description" content="Pabić — kafić danju, pub noću. Svake subote svirka uživo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top" aria-label="Pabić Home">
+        <span class="brand-logoWrap">
+          <img class="brand-logo" src="assets/logo.png" alt="Pabić logo">
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Pabić</span>
+          <span class="brand-sub" data-i18n="brand_sub">Kafić • Mladenovac</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a class="navlink" href="#meni" data-i18n="nav_menu">Meni</a>
+        <a class="navlink" href="#svirka" data-i18n="nav_live">Svirka</a>
+        <a class="navlink" href="#galerija" data-i18n="nav_gallery">Galerija</a>
+        <a class="navlink" href="#kontakt" data-i18n="nav_contact">Kontakt</a>
+      </nav>
+
+      <div class="actions">
+        <a class="call" href="tel:+381616217070" aria-label="Pozovi">
+          <span class="call-ico">☎</span>
+          <span data-i18n="call">Pozovi</span>
+        </a>
+
+        <div class="lang-switch" role="group" aria-label="Language switch">
+          <button class="lang-btn active" type="button" data-lang="sr">SR</button>
+          <button class="lang-btn" type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="pill" data-i18n="pill_sat">Subotom: svirka uživo 🎶</div>
+          <h1 class="hero-title" data-i18n="hero_title">Počnite dan uz dobru kafu i upotpunite ga pivom.</h1>
+          <p class="hero-sub" data-i18n="hero_sub">
+            Pabić je mesto za kafu, pića i dobro društvo — a svake subote vas čeka nova svirka (uživo, različiti bendovi).
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn" href="#meni" data-i18n="btn_menu">Pogledaj meni</a>
+            <a class="btn outline" href="#kontakt" data-i18n="btn_res">Rezervacije</a>
+          </div>
+
+          <div class="mini-cards">
+            <div class="mini">
+              <div class="mini-k" data-i18n="hours_lbl">Radno vreme</div>
+              <div class="mini-v" data-i18n="hours_val">Pon–Ned: 07:00 – 01:00</div>
+            </div>
+            <div class="mini">
+              <div class="mini-k" data-i18n="addr_lbl">Adresa</div>
+              <div class="mini-v">Kralja Petra Prvog 136, Mladenovac</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <img class="hero-card-img" src="assets/hero-card.jpg" alt="Pabić terasa u Mladenovcu">
+          <div class="hero-card-body">
+            <h3 data-i18n="quick_contact">Brzi kontakt</h3>
+
+            <a class="chip" href="tel:+381616217070">
+              <span class="chip-ico">📞</span>
+              <span>+381 61 621 7070</span>
+            </a>
+            <a class="chip" href="https://www.instagram.com/pabic_pabic/" target="_blank" rel="noopener">
+              <span class="chip-ico">📷</span>
+              <span>@pabic_pabic</span>
+            </a>
+            <a class="chip" href="https://www.google.com/maps?q=Kralja+Petra+Prvog+136,+Mladenovac" target="_blank" rel="noopener">
+              <span class="chip-ico">📍</span>
+              <span data-i18n="open_map">Otvori mapu</span>
+            </a>
+
+            <div class="divider"></div>
+
+            <h4 data-i18n="highlights">Izdvajamo</h4>
+            <ul class="bullets">
+              <li data-i18n="hl_1">Kafa i pića (toplo/hladno)</li>
+              <li data-i18n="hl_2">Cene okvirno: 500–1000 RSD</li>
+              <li data-i18n="hl_3">Subotom svirka uživo (različiti bendovi)</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="meni" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 data-i18n="menu_title">Meni</h2>
+          <p class="section-sub" data-i18n="menu_sub">U ponudi su topli i hladni napici. Cene su okvirno 500–1000 RSD.</p>
+        </div>
+
+        <div class="cards3">
+          <div class="card">
+            <div class="card-ico">☕</div>
+            <h3 data-i18n="menu_hot">Topli napici</h3>
+            <p data-i18n="menu_hot_sub">Espresso, produžena, cappuccino, čajevi…</p>
+          </div>
+          <div class="card">
+            <div class="card-ico">🧊</div>
+            <h3 data-i18n="menu_cold">Hladni napici</h3>
+            <p data-i18n="menu_cold_sub">Sokovi, voda, ledena kafa, energetska pića…</p>
+          </div>
+          <div class="card">
+            <div class="card-ico">🍺</div>
+            <h3 data-i18n="menu_beer">Pivo &amp; ostalo</h3>
+            <p data-i18n="menu_beer_sub">Domaće i strano pivo, kokteli (po ponudi)…</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="svirka" class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 data-i18n="live_title">Svirka svake subote</h2>
+          <p class="section-sub" data-i18n="live_sub">Svake subote druga ekipa — pratite Instagram za najave.</p>
+        </div>
+
+        <div class="callout">
+          <div class="callout-left">
+            <h3 data-i18n="book_title">Rezervacije za rođendane i događaje</h3>
+            <p data-i18n="book_sub">Pišite nam na Instagram ili pozovite. Rado pomažemo oko organizacije.</p>
+          </div>
+          <div class="callout-actions">
+            <a class="btn" href="https://www.instagram.com/pabic_pabic/" target="_blank" rel="noopener" data-i18n="btn_instagram">Instagram</a>
+            <a class="btn outline" href="tel:+381616217070" data-i18n="btn_call">Pozovi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galerija" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 data-i18n="gallery_title">Galerija</h2>
+          <p class="section-sub" data-i18n="gallery_sub">Atmosfera danju i noću — kafa, društvo i dobra muzika.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gitem">
+            <img src="assets/gallery-1.jpg" alt="Enterijer">
+            <figcaption data-i18n="g1">Prijatno ćaskanje</figcaption>
+          </figure>
+          <figure class="gitem">
+            <img src="assets/gallery-2.jpg" alt="Šank">
+            <figcaption data-i18n="g2">Moderan enterijer</figcaption>
+          </figure>
+          <figure class="gitem">
+            <img src="assets/gallery-3.jpg" alt="Kafa">
+            <figcaption data-i18n="g3">Jutarnja kafa</figcaption>
+          </figure>
+          <figure class="gitem">
+            <img src="assets/gallery-4.jpg" alt="Terasa">
+            <figcaption data-i18n="g4">Bašta</figcaption>
+          </figure>
+          <figure class="gitem">
+            <img src="assets/gallery-5.jpg" alt="Svirka uživo">
+            <figcaption data-i18n="g5">Noćna atmosfera</figcaption>
+          </figure>
+        </div>
+
+        <div class="center">
+          <a class="btn outline" href="https://www.instagram.com/pabic_pabic/" target="_blank" rel="noopener" data-i18n="gallery_btn">Pogledaj punu galeriju</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section alt">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 data-i18n="visit_title">Posetite nas</h2>
+          <p class="section-sub" data-i18n="visit_sub">Nalazimo se u Mladenovcu. Dođite i uživajte!</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="map card soft">
+            <iframe
+              title="Pabić mapa"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Kralja%20Petra%20Prvog%20136%2C%20Mladenovac&output=embed">
+            </iframe>
+            <div class="map-actions">
+              <a class="btn" href="https://www.google.com/maps?q=Kralja+Petra+Prvog+136,+Mladenovac" target="_blank" rel="noopener" data-i18n="nav_btn">Navigacija</a>
+              <a class="btn gold" href="tel:+381616217070" data-i18n="call">Pozovi</a>
+            </div>
+          </div>
+
+          <div class="info">
+            <div class="card soft">
+              <div class="row">
+                <div class="row-ico">📍</div>
+                <div>
+                  <div class="row-k" data-i18n="addr_lbl">Adresa</div>
+                  <div class="row-v">Kralja Petra Prvog 136<br><span class="muted">Mladenovac, Srbija</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card soft">
+              <div class="row">
+                <div class="row-ico">🕒</div>
+                <div>
+                  <div class="row-k" data-i18n="hours_lbl">Radno vreme</div>
+                  <div class="row-v"><span data-i18n="hours_val2">Svaki dan: 07:00 – 01:00</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card soft">
+              <div class="row">
+                <div class="row-ico">☎</div>
+                <div>
+                  <div class="row-k" data-i18n="phone_lbl">Telefon</div>
+                  <div class="row-v">061 6217070</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card soft outline-gold">
+              <div class="row">
+                <div class="row-ico">ℹ</div>
+                <div>
+                  <div class="row-k" data-i18n="useful">Korisne informacije</div>
+                  <div class="row-v small">
+                    <div data-i18n="use_1">• Oko 22:00 zna biti malo gužve</div>
+                    <div data-i18n="use_2">• Prosečna poseta: 30 min – 2.5 h</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap foot-grid">
+        <div>
+          <div class="foot-brand">
+            <img src="assets/logo.png" alt="Pabić logo" class="foot-logo">
+            <span class="foot-name">Pabić</span>
+          </div>
+          <p class="foot-text" data-i18n="foot_desc">Kafić danju, pub noću. Mesto za kafu, priču i dobro pivo u srcu Mladenovca.</p>
+        </div>
+
+        <div>
+          <h4 data-i18n="foot_links">Brzi linkovi</h4>
+          <a class="foot-link" href="#top" data-i18n="nav_home">Početna</a>
+          <a class="foot-link" href="#meni" data-i18n="nav_menu">Meni</a>
+          <a class="foot-link" href="#galerija" data-i18n="nav_gallery">Galerija</a>
+          <a class="foot-link" href="#kontakt" data-i18n="nav_contact">Kontakt</a>
+        </div>
+
+        <div>
+          <h4 data-i18n="foot_contact">Kontakt</h4>
+          <div class="foot-item">📍 Kralja Petra Prvog 136<br><span class="muted">Mladenovac, Srbija</span></div>
+          <div class="foot-item">☎ 061 6217070</div>
+          <div class="foot-item">🕒 <span data-i18n="hours_val2">Svaki dan: 07:00 – 01:00</span></div>
+        </div>
+
+        <div>
+          <h4 data-i18n="foot_follow">Pratite nas</h4>
+          <div class="social">
+            <a class="soc" href="https://www.instagram.com/pabic_pabic/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+          </div>
+          <p class="foot-text small" data-i18n="foot_social">Podelite svoja iskustva i obeležite nas u svojim objavama!</p>
+        </div>
+      </div>
+      <div class="wrap foot-bottom">
+        <span>© <span id="year"></span> Pabić.</span>
+        <span class="muted" data-i18n="rights">Sva prava zadržana.</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
