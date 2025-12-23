@@ -410,7 +410,7 @@ const gigData = {
 
     if (bandEl) bandEl.textContent = (lang === "en" ? next.band_en : next.band_sr) || "TBA";
     if (dayEl)  dayEl.textContent  = (lang === "en" ? next.day_en  : next.day_sr)  || "Subota";
-    if (timeEl) timeEl.textContent = next.time || "21:30";
+    if (timeEl) timeEl.textContent = next.time || "21:00";
     if (noteEl) noteEl.textContent = (lang === "en" ? next.note_en : next.note_sr) || "";
   } catch (e) {
     // إذا ما لقى الملف، خلي الموجود بالـ HTML متل ما هو
