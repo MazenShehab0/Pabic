@@ -693,3 +693,22 @@ a{color:inherit}
   margin-left:10px;
 }
 .theme-btn:hover{filter:brightness(1.07)}
+/* Dark theme overrides */
+html[data-theme="dark"]{
+  --bg: #0b0b0c;
+  --text: #f3f3f3;
+  --muted: rgba(255,255,255,.72);
+
+  --card: rgba(255,255,255,.06);
+  --shadow: 0 18px 45px rgba(0,0,0,.45);
+  --line: rgba(255,255,255,.12);
+
+  --sand: #151210;
+  --sand2:#0f0e0d;
+
+  --dark: #0f0f10;
+  --dark2:#0b0b0c;
+
+  --gold: #d4af37;
+  --gold2:#f3c500;
+}
