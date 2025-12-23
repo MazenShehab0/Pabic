@@ -1,21 +1,22 @@
 
 :root{
-  --bg:#ffffff;
-  --panel:#111111;      /* هيدر أسود */
-  --card:#ffffff;
-  --soft:#fbf5e6;       /* بيج فاتح */
-  --text:#111111;
-  --textOnDark:#ffffff;
-  --muted:#6d6d6d;
+  --bg:#141313;         /* خلفية داكنة */
+  --panel:#1c1a19;      /* شريط/هيدر */
+  --card:#ffffff;       /* كروت بيضا */
+  --soft:#f6ead1;       /* سكشنات بيج */
+  --text:#141313;       /* نص على الأبيض */
+  --textOnDark:#f6f0e5; /* نص على الداكن */
+  --muted:#6f6256;
 
   --gold:#d4af37;
-  --gold2:#c79a2b;
-  --brown:#2a2a2a;
+  --gold2:#b8860b;
+  --brown:#7a3f16;
 
-  --border:rgba(17,17,17,.10);
-  --shadow:0 18px 50px rgba(0,0,0,.15);
+  --border:rgba(20,19,19,.10);
+  --shadow:0 20px 60px rgba(0,0,0,.22);
   --radius:18px;
 }
+
 
 
 *{box-sizing:border-box}
