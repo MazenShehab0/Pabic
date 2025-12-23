@@ -392,3 +392,27 @@ const gigData = {
   day: "Subota",
   time: "oko 21:00"
 };
+(async () => {
+  const bandEl = document.getElementById("bandName");
+  const dayEl  = document.getElementById("gigDay");
+  const timeEl = document.getElementById("gigTime");
+  const noteEl = document.getElementById("gigNote");
+  if (!bandEl && !dayEl && !timeEl && !noteEl) return;
+
+  const lang = (localStorage.getItem("lang") || document.documentElement.lang || "sr").startsWith("en")
+    ? "en" : "sr";
+
+  try {
+    const res = await fetch("events.json", { cache: "no-store" });
+    if (!res.ok) throw new Error("events.json not found");
+    const data = await res.json();
+    const next = data.next;
+
+    if (bandEl) bandEl.textContent = (lang === "en" ? next.band_en : next.band_sr) || "TBA";
+    if (dayEl)  dayEl.textContent  = (lang === "en" ? next.day_en  : next.day_sr)  || "Subota";
+    if (timeEl) timeEl.textContent = next.time || "21:30";
+    if (noteEl) noteEl.textContent = (lang === "en" ? next.note_en : next.note_sr) || "";
+  } catch (e) {
+    // إذا ما لقى الملف، خلي الموجود بالـ HTML متل ما هو
+  }
+})();
