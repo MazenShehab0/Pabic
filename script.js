@@ -176,6 +176,7 @@ const dict = {
     footer_follow_text: "Podelite svoja iskustva i obeležite nas u svojim objavama!",
     footer_rights: "Sva prava zadržana."
     nav_events:"Svirka",
+  
 events_title:"Svirka uživo",
 events_sub:"Svake subote druga ekipa — pratite najavu i rezervišite sto na vreme.",
 events_next:"Sledeća svirka",
@@ -330,6 +331,7 @@ pop_more:"Detalji"
     footer_follow_text: "Share your experience and tag us in your posts!",
     footer_rights: "All rights reserved."
     nav_events:"Live music",
+      
 events_title:"Live music",
 events_sub:"Every Saturday a different band — check the announcement and book a table.",
 events_next:"Next live set",
